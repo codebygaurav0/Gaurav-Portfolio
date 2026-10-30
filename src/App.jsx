@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+﻿import { useEffect, useRef, useState } from "react";
 import {
   ArrowDown,
   ArrowUpRight,
@@ -145,6 +145,30 @@ const projects = [
       "A responsive food delivery web application focused on a clean user experience, responsive frontend development, and modern web technologies.",
     liveDemo: "https://frontend-iota-vert-62.vercel.app/login",
     tech: ["React.js", "JavaScript", "HTML5", "CSS3"],
+  },
+  {
+    number: "04",
+    title: "Jaipur Bus Live",
+    description:
+      "A Jaipur public transport website featuring live JCTSL bus tracking, route search, interactive maps, and Jaipur Metro information.",
+    liveDemo: "https://jaipur-bus-live.web.app/",
+    tech: ["React.js", "Vite", "Tailwind CSS", "Leaflet"],
+  },
+  {
+    number: "05",
+    title: "AllToolsIndia",
+    description:
+      "A collection of online tools designed to make common digital tasks easier through a simple, responsive web interface.",
+    liveDemo: "https://alltoolsindia-36532.web.app/",
+    tech: ["React.js", "Vite", "Tailwind CSS"],
+  },
+  {
+    number: "06",
+    title: "Kure by Kaushal",
+    description:
+      "A dedicated website project for Kure by Kaushal, providing a web presence through a responsive website.",
+    liveDemo: "https://kure-by-kaushal.web.app/",
+    tech: ["Web Development", "Responsive Design", "Firebase Hosting"],
   },
 ];
 
@@ -756,3 +780,4 @@ function App() {
 }
 
 export default App;
+
